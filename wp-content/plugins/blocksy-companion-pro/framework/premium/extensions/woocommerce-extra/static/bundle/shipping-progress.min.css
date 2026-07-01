@@ -1,0 +1,8 @@
+/**
+ *  - v2.0.80
+ * 
+ * Copyright (c) 2024
+ * Licensed GPLv2+
+ */
+
+.ct-shipping-progress-mini-cart{font-size:14px;color:var(--theme-text-color);margin-bottom:var(--mini-cart-items-spacing, 20px)}.ct-shipping-progress-cart-page{margin-bottom:20px;padding-bottom:20px;border-bottom:1px dashed var(--theme-border-color)}.ct-shipping-progress-checkout-page{margin-bottom:40px;padding-bottom:40px;border-bottom:1px dashed var(--theme-border-color)}

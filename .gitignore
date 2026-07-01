@@ -1,0 +1,23 @@
+# WordPress secrets — never commit real credentials
+wp-config.php
+
+# Logs
+error_log
+debug.log
+wp-content/debug.log
+
+# Uploads (user-generated media, not source code)
+wp-content/uploads/
+
+# WordPress upgrade/backup working directories
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# Cache
+wp-content/cache/
+wp-content/uploads/wpforms/cache/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.claude/

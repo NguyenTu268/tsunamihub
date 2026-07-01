@@ -1,0 +1,325 @@
+<strong>4.7.1 (2nd March 2026)</strong>
+<ul>
+	<li>Bug: Resolved the menu item ordering issue</li>
+</ul>
+<strong>4.7.0 (12th February 2026)</strong>
+<ul>
+	<li>Feature: Added support for placing action/social icons inside the menu container (e.g., call, email, WhatsApp, social links).</li>
+</ul>
+<strong>4.6.0 (23rd July 2025)</strong>
+<ul>
+	<li>Feature: Added option to hide menu items for logged in and non logged in users</li>
+</ul>
+<strong>4.5.1 (21st April 2025)</strong>
+<ul>
+	<li>Bug: Fixed JS error with mega menu columns</li>
+</ul>
+<strong>4.5.0 (6th November 2024)</strong>
+<ul>
+	<li>Feature: Enable users to customize the colors of hamburger icons</li>
+	<li>Enhancement: Optimize RM editor performance and format JavaScript for better efficiency</li>
+</ul>
+<strong>4.4.2 (13th August 2024)</strong>
+<ul>
+	<li>Bug: Resolved parent menu active class issue</li>
+</ul>
+<strong>4.4.1 (29th July 2024)</strong>
+<ul>
+	<li>Bug: Fixed compatibility issues with php 8.3</li>
+</ul>
+<strong>4.4.0 (4th July 2024)</strong>
+<ul>
+	<li>Feature: Added option to use custom SVG or icon code in menu item</li>
+	<li>Enhancement: Improved security and addressed vulnerabilities</li>
+</ul>
+<strong>4.3.5 (25th April 2024)</strong>
+<ul>
+	<li>Enhancement: Update scssphp library to 1.12.1</li>
+</ul>
+<strong>4.3.4 (17th April 2024)</strong>
+<ul>
+	<li>Enhancement: Added option to minimize script file</li>
+</ul>
+<strong>4.3.3 (11th March 2024)</strong>
+<ul>
+	<li>Feature: Added the functionality to navigate menus using the tab key for improved accessibility</li>
+</ul>
+<strong>4.3.2 (27th Dec 2023)</strong>
+<ul>
+	<li>Feature: Added option to hightlight active parent menus</li>
+	<li>Bug: Fixed issue with desktop submenu background color options</li>
+	<li>Bug: Fixed issue with disable background scrolling option</li>
+</ul>
+<strong>4.3.1 (14th Aug 2023)</strong>
+<ul>
+	<li>Bug Fix: Addressed the problem related to hamburger line height option</li>
+	<li>Enhancement: Anchored tags are now removed if not utilized within the title</li>
+</ul>
+
+<strong>4.3.0 (16th May 2023)</strong>
+<ul>
+	<li>Feature: Introducing the ability to utilize a custom search form for enhanced user experience</li>
+	<li>Feature: The option to hide or show specific menu items has been added</li>
+	<li>Enhancement: The tablet default breakpoints have been adjusted to improve responsiveness</li>
+	<li>Enhancement: Improved UX</li>
+</ul>
+
+<strong>4.2.3 (29th Mar 2023)</strong>
+<ul>
+	<li>Bug: Fixed PHP warnings</li>
+	<li>Enhancement: Checked compatibility with WordPress 6.2</li>
+</ul>
+
+<strong>4.2.2 (2nd Mar 2023)</strong>
+<ul>
+	<li>Feature: The option to set multiple columns in the menu container has been added</li>
+	<li>Bug: Resolved a conflict with a third-party plugin that was caused by extra space in menu attributes</li>
+</ul>
+
+<strong>4.2.1 (6th Dec 2022)</strong>
+<ul>
+	<li>Bug: Bug: Fixed CSS conflict issues with other plugins</li>
+	<li>Bug: Fixed issue with submenu animation</li>
+</ul>
+
+<strong>4.2.0 (8th Sep 2022)</strong>
+<ul>
+	<li>Feature: Added classic menu support for block themes</li>
+	<li>Bug: Fixed conflict issues with Beaver Themer Plugin</li>
+	<li>Bug: Fixed PHP warning issues with mega menu</li>
+	<li>Enhancement: Added alert popup if WordPress Menus are empty</li>
+</ul>
+
+<strong>4.1.12 (1st Aug 2022)</strong>
+<ul>
+	<li>Feature: Added multiple device option for menu container width</li>
+	<li>Bug: Fixed conflict issues with conflict with Multiple Page Generator Plugin</li>
+	<li>Enhancement: Added timestamps as a version to generated CSS/JSS URLs</li>
+	<li>Enhancement: Improved mega menu widget layout</li>
+</ul>
+
+<strong>v4.1.11 (25th May 2022)</strong>
+<ul>
+	<li>Bug: Fixed issue with desktop breakpoint</li>
+	<li>Bug: Fixed conflict issues with Import Eventbrite Events plugin</li>
+	<li>Enhancement: Added rmp_nav_item_class hook to update nav item classes</li>
+	<li>Enhancement: Removed unused resources</li>
+</ul>
+
+<strong>v4.1.10 (30th Mar 2022)</strong>
+<ul>
+	<li>Bug: Fixed issue with submenu font-weight</li>
+	<li>Bug: Fixed multiple issues with mega menus</li>
+	<li>Bug: Fixed performance issues when a website has several posts/pages</li>
+	<li>Feature: Added options for changing text color inside mega menu columns</li>
+	<li>Enhancement: Updated scssphp to latest version (1.10.2)</li>
+</ul>
+
+<strong>v4.1.9 (8th Mar 2022)</strong>
+<ul>
+	<li>Bug: Fixed PHP warning and errors</li>
+	<li>Enhancement: Fixed issues with admin bar settings</li>
+	<li>Others: Skipping versions to sync with latest free version number</li>
+</ul>
+
+<strong>v4.1.6 (8th Feb 2022)</strong>
+<ul>
+	<li>Bug: Fixed security vulnerabilities</li>
+	<li>Bug: Fixed w3 validator CSS errors</li>
+	<li>Bug: Fixed unnecessary HTTP requests to theme config files</li>
+</ul>
+
+<strong>v4.1.5 (17th Sep 2021)</strong>
+<ul>
+	<li>Bug: Fixed integration issue with WPML.</li>
+	<li>Bug: Fixed "Hide Theme Menu" option to hide menu only for active breakpoints</li>
+	<li>Bug: Fixed transparent background issue.</li>
+	<li>Feature: Added option for showing different menus for logged in users and guest users under general settings.</li>
+	<li>Feature: Added additional display condition as "Parent and child pages" under general settings.</li>
+	<li>Feature: Added option to search settings in customizer.</li>
+	<li>Feature: Added shortcuts to related settings in different sections of customizer.</li>
+	<li>Feature: Added custom selector for hamburger icon position.</li>
+	<li>Feature: Added warning message if theme location is not set for selected menu.</li>
+	<li>Enhancement: Moved "Padding" setting from (Mobile Menu > Container > Menu) to (Menu Styling > Menu Settings)</li>
+	<li>Enhancement: Moved "Enable Smooth Scrolling" setting from (Menu Styling > Menu Settings) to (Setting > Advance Setting > Technical)</li>
+</ul>
+
+<strong>v4.1.4 (23rd Aug 2021)</strong>
+<ul>
+	<li>Bug: Fixed responsive menu CSS loading on each page despite include only pages condition.</li>
+	<li>Bug: Fixed update notification issue with theme location enabled.</li>
+	<li>Feature: Update desktop theme location option to be disabled automatically if the wp_footer hook is enabled.</li>
+	<li>Feature: Added font-display property for material icons.</li>
+	<li>Feature: Added different background colors for the mobile menu and the desktop menu.</li>
+	<li>Feature: Added gradient background option for the mobile menu, desktop menu and header bar.</li>
+	<li>Enhancement: Updated accent color in dark mode</li>
+</ul>
+
+<strong>v4.1.3 (25 June 2021)</strong>
+<ul>
+	<li>Bug: Fixed Adjust Page option issue</li>
+	<li>Bug: Fixed the issue of conflict with WooCommerce plugin</li>
+	<li>Bug: Fixed the issue of wrong button text position</li>
+	<li>Bug: Fixed the issue where changes made on WordPress menu are not reflected in the mega menu</li>
+	<li>Feature: Added banner for providing plugin feedback</li>
+	<li>Enhancement: Renamed `Roadmap` to `What's Next`</li>
+</ul>
+
+<strong>v4.1.2 (01 May 2021)</strong>
+<ul>
+	<li>Feature: Added dark mode option for menu customizer</li>
+	<li>Enhancement: Added new filter rmp_menu_markups</li>
+	<li>Enhancement: Added demo links for free themes</li>
+	<li>Enhancement: Added new option for desktop menu to align the content</li>
+	<li>Bug: Fixed desktop menu alignment issue</li>
+	<li>Bug: Fixed desktop menu items overlapping issue</li>
+</ul>
+
+<strong>v4.1.1 (19 April 2021)</strong>
+<ul>
+	<li>Bug: Fixed elementor issue with PHP version 7.2 and older</li>
+</ul>
+
+<strong>v4.1.0 (26 February 2021)</strong>
+<ul>
+	<li>Feature: Bundled all free themes in plugin</li>
+	<li>Feature: Added new option for font weight and font family for menu title</li>
+	<li>Feature: Added home button on preview device</li>
+	<li>Feature: Added border radius as new option for toggle button</li>
+	<li>Feature: Added theme upload feature in wizards</li>
+	<li>Feature: To support the advanced menu themes</li>
+	<li>Enhancement: Improved push animation to work with only body element</li>
+	<li>Enhancement: Added loader to show while uploading and changing theme</li>
+	<li>Enhancement: Show message when theme page is empty</li>
+	<li>Enhancement: Show spinner while deleting theme</li>
+	<li>Enhancement: Redirected user directly to customizer after creating a new menu</li>
+	<li>Enhancement: Prevent deleting a theme if being used by active menu</li>
+	<li>Enhancement: Added admin notice with doc link if no menu created</li>
+	<li>Enhancement: Improved the default theme with new UI</li>
+	<li>Enhancement: Improved the wizards UI</li>
+	<li>Enhancement: Added hide menu input in new menu wizard</li>
+	<li>Enhancement: Improved caching and minimize API requests</li>
+	<li>Enhancement: Added support for WordPress core version 5.7</li>
+	<li>Bug: Prevent to load the customizer screen in preview section</li>
+	<li>Bug: Fixed additional contents to process the shortcode</li>
+	<li>Bug: Fixed Menu item height issue with long text</li>
+	<li>Bug: Fixed default wp menu items</li>
+	<li>Bug: Improved live preview and update required</li>
+	<li>Bug: Fixed PHP warning and errors</li>
+</ul>
+
+<strong>v4.0.4 (19 January 2021)</strong>
+<ul>
+	<li>Bug: Fixed security vulnerabilities</li>
+</ul>
+
+<strong>v4.0.3 (07 January 2021)</strong>
+<ul>
+	<li>Enhancement: Improved caching for API response</li>
+	<li>Bug: Fixed multi language menu support with WPML</li>
+	<li>Bug: Fixed theme compatibility issues</li>
+	<li>Bug: Fixed PHP notice and warning errors</li>
+</ul>
+
+<strong>v4.0.2 (29 Dec 2020)</strong>
+<ul>
+	<li>Feature: Support theme location feature for desktop menu</li>
+	<li>Feature: Added responsive menu elementor widget</li>
+	<li>Enhancement: Improved mega menu to export and import the widgets</li>
+	<li>Enhancement: Improved theme visibility in new menu wizard</li>
+	<li>Enhancement: Theme location feature support all default themes</li>
+	<li>Bug: Fixed widget contents overlapping issue in mega menu</li>
+	<li>Bug: Fixed widget reopening and UI issues in mega menu wizard</li>
+</ul>
+
+<strong>v4.0.1 (15 Dec 2020)</strong>
+<ul>
+	<li>Enhancement: Hide WordPress admin bar from menu preview</li>
+	<li>Enhancement: Added notice message when WordPress menu doesn't exist</li>
+	<li>Enhancement: Added admin notice banner for new version update</li>
+	<li>Enhancement: Improved menu customizer options visibility</li>
+	<li>Bug: Fixed some php notices and errors</li>
+</ul>
+
+<strong>v4.0.0 (07 Dec 2020)</strong>
+<ul>
+	<li>New and improved admin user interface</li>
+	<li>Added menu customizer with live preview features</li>
+	<li>Added feature to create menu templates</li>
+	<li>Improved menu themes</li>
+	<li>Added support for multiple menus</li>
+	<li>Improved the header bar features</li>
+	<li>Improved desktop menu features</li>
+	<li>Mega menus are now easy to customize and supports WordPress core widgets</li>
+	<li>Added support for WordPress core version 5.6 and PHP 8.0</li>
+	<li>Added support for twenty twenty one theme</li>
+	<li>Fixed several bugs on older version</li>
+</ul>
+
+<strong>v3.1.30 (23 July 2020)</strong>
+<ul>
+	<li>Bug: Fixed w3 validation errors</li>
+	<li>Bug: Fixed hamburger menu flicking on very first load</li>
+	<li>Bug: Fixed page overlay issue</li>
+	<li>Bug: Fixed menu arial-label</li>
+</ul>
+
+<strong>v3.1.29 (04 May 2020)</strong>
+<ul>
+	<li>Bug: Fix fade items in options</li>
+	<li>Bug: Fix slide effect for submenu</li>
+	<li>Bug: Fix page scrolling on menu item click</li>
+	<li>Bug: Fix Menu import functionality when menu names do not match</li>
+</ul>
+
+<strong>v3.1.28 (13 April 2020)</strong>
+<ul>
+	<li>Enhancement: Added admin notice to upgrade the license</li>
+	<li>Feature: Improve keyboard accessibility</li>
+	<li>Enhancement: Improve Mega menu functionalities
+		<ul>
+			<li>Improve layout structure and overlapping issues</li>
+			<li>Added Maximum width option for Mega menu panel</li>
+			<li>Added padding options for Mega menu column</li>
+			<li>Added color options for Mega Menu panel</li>
+			<li>Fix Submenu items depth for Mega Menu</li>
+		</ul>
+	</li>
+	<li>Enancement: Improve Standard Menu type
+		<ul>
+			<li>Fix layout and contents overlapping</li>
+			<li>Added option to set the Maximum width for Submenu panel</li>
+		</ul>
+	</li>
+	<li>Feature: Added option to open Submenu on click </li>
+	<li>Feature: Added some animation effects for Menu items </li>
+	<li>Enancement: Improve the submenu item indicator for desktop menu</li>
+</ul>
+
+<strong>v3.1.27 (23 Mar 2020)</strong>
+<ul>
+ 	<li>Bug: Responsive menu is not compatible with PHP 7.4</li>
+ 	<li>Bug: Menu Spacing Broken On Version 3.1.26</li>
+ 	<li>Feature: Desktop Menu Hide on Scroll Down / Show on Scroll Up</li>
+ 	<li>Bug: W3C Compliance issues</li>
+</ul>
+<strong>v3.1.26 (19 Feb 2020)</strong>
+<ul>
+ 	<li>Bug: WordPress 5.3 - Responsive Menu pro</li>
+ 	<li>Bug: Hover trigger not working properly</li>
+ 	<li>Bug: Responsive menu is not compatible with PHP 7.4</li>
+ 	<li>Bug: Click on search input in menu automatically closes it in iOS safari</li>
+</ul>
+<strong>v3.1.25 (17 Dec 2019)</strong>
+<ul>
+ 	<li>Multiple CSS issues found in plugin
+		<ul>
+			<li>Sub Menus -&gt; Text Alignment Option does not work</li>
+			<li>Trigger Icon Position</li>
+			<li>Trigger Icon Border CSS code</li>
+			<li>Menu Text goes under Trigger Icon</li>
+		</ul>
+	</li>
+ 	<li>Different menus for mobile and desktop</li>
+ 	<li>Deactivate current active version of plugin before switching to another version</li>
+</ul>

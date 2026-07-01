@@ -1,0 +1,131 @@
+@import '../../../../../../../static/sass/frontend/common-frontend/functions';
+
+#ct-added-to-cart-popup {
+
+	.ct-added-to-cart-message {
+		position: relative;
+		display: flex;
+		gap: 12px;
+		align-items: center;
+		padding: var(--popup-padding, 30px);
+		padding-block: 18px;
+		border-bottom: 1px solid var(--theme-border-color);
+
+		font-size: 15px;
+		font-weight: 500;
+
+		.ct-toggle-close {
+			--toggle-button-position: initial;
+			--toggle-button-size: initial;
+		}
+	}
+
+	// added to cart product
+	.ct-added-to-cart-product {
+		display: grid;
+		align-items: center;
+		gap: 25px;
+
+		@include media-breakpoint-up (sm) {
+
+			&:not(.no-image) {
+				grid-template-columns: var(--product-image-width, 20%) 1fr;
+			}
+		}
+
+		.ct-media-container {
+			align-self: start;
+			border-radius: var(--theme-border-radius, 3px);
+		}
+	}
+
+	.ct-product-title-price {
+		display: flex;
+		gap: 10px;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+
+	.woocommerce-loop-product__title {
+		margin: 0;
+	}
+
+	.ct-product-attributes,
+	.ct-product-totals {
+		font-size: 14px;
+		font-weight: 600;
+		margin-top: 15px;
+		padding-top: 15px;
+		border-top: 1px dashed var(--theme-border-color);
+
+		li {
+			display: flex;
+			justify-content: space-between;
+
+			&:not(:last-child) {
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	.ct-popup-actions,
+	.ct-suggested-products {
+		margin-top: 25px;
+		padding-top: 25px;
+		border-top: 1px dashed var(--theme-border-color);
+	}
+
+	.ct-popup-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+
+		> * {
+			flex: 1;
+
+			--theme-button-min-height: 50px;
+		}
+	}
+
+	.ct-suggested-products {
+
+		h6 {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.ct-media-container {
+			border-radius: var(--theme-border-radius, 100%);
+		}
+	}
+
+
+	// slider
+	.flexy-items {
+		--flexy-items-gap: var(--grid-columns-gap, 30px);
+		--flexy-item-width: var(--grid-columns-width);
+	}
+
+
+	// cards type
+	[data-products="block"] {
+
+		.ct-media-container {
+			margin-bottom: 20px;
+		}
+	}
+
+	[data-products="inline"] {
+
+		.flexy-item {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+		}
+
+		.ct-media-container {
+			flex: 0 0 25%;
+		}
+	}
+}
